@@ -1,16 +1,19 @@
-var React = require('react');
+// import modules
+var React = require("react");
 
+// main component definition
 var Main = (props) => {
-  return (
-    <div>
-      <div>
+    return (
         <div>
-          <p>Main.jsx Rendered</p>
-          {props.children}
+            <div>
+                <div>
+                    <h1>Main component</h1>
+                    {props.children}
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  );
+    );
 }
 
+// exports Main component
 module.exports = Main;
